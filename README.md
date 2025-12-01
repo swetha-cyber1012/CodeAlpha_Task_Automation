@@ -1,41 +1,42 @@
-🤖 Task Automation with Python
-📌 Overview
+
+
+# 🤖 Task Automation with Python
+
+## 📌 Overview
 
 A beginner-friendly Python project that automates small, repetitive tasks such as:
 
-Moving .jpg files to a specific folder
+* Moving `.jpg` files to a specific folder
+* Extracting emails from `.txt` files
+* Scraping the title of a webpage
 
-Extracting emails from .txt files
+It demonstrates practical Python skills for **file handling, regular expressions, and automation**.
 
-Scraping the title of a webpage
+---
 
-It demonstrates practical Python skills for file handling, regular expressions, and automation.
+## 🛠 Technologies Used
 
-🛠 Technologies Used
+* **Python 3** – Core language
+* **os, shutil** – File and folder management
+* **re** – Extracting patterns like emails
+* **requests, BeautifulSoup** – Web scraping
+* **File handling** – Saving output to `.txt` or `.csv`
 
-Python 3 – Core language
+---
 
-os, shutil – File and folder management
+## ⚡ Features
 
-re – Extracting patterns like emails
+* Move all `.jpg` files to a designated folder
+* Extract email addresses from text files
+* Scrape and save webpage titles
+* Save results automatically in an output folder
+* Easy to use and modify for beginners
 
-requests, BeautifulSoup – Web scraping
+---
 
-File handling – Saving output to .txt or .csv
+## 📂 Project Structure
 
-⚡ Features
-
-Move all .jpg files to a designated folder
-
-Extract email addresses from text files
-
-Scrape and save webpage titles
-
-Save results automatically in an output folder
-
-Easy to use and modify for beginners
-
-📂 Project Structure
+```
 Task_Automation/
 │── move_jpg_files.py        # Script to move JPG files
 │── extract_emails.py        # Script to extract emails
@@ -43,44 +44,56 @@ Task_Automation/
 │── sample_files/            # Input files
 │   └── output/              # Outputs saved here
 └── README.md
+```
 
-🚀 How to Run
+---
 
-Install Python 3
+## 🚀 How to Run
 
-Open Terminal in the project folder
+1. Install Python 3
+2. Open Terminal in the project folder
+3. Run the script:
 
-Run the script:
-
+```bash
 python move_jpg_files.py
 python extract_emails.py
 python scrape_title.py
+```
 
+4. Follow prompts
+5. Check `sample_files/output/` for results
 
-Follow prompts
+---
 
-Check sample_files/output/ for results
+## 🗨 Sample Output
 
-🗨 Sample Output
+**Moving JPG files:**
 
-Moving JPG files:
-
+```
 ✔ 5 JPG files moved successfully!
+```
 
+**Extracting emails:**
 
-Extracting emails:
-
+```
 ✔ 12 email addresses extracted to emails_output.txt
+```
 
+**Scraping webpage title:**
 
-Scraping webpage title:
-
+```
 ✔ Title saved to sample_files/output/title.txt
+```
 
-👨‍💻 Developer
+---
 
-Name: Swetha R
+## 👨‍💻 Developer
 
-Task: Python Task Automation
+* **Name:** Swetha R
+* **Task:** Python Task Automation
+* **Internship:** CodeAlpha – Python Development
 
-Internship: CodeAlpha – Python Development
+---
+
+
+
